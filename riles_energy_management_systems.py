@@ -17,7 +17,7 @@ def sys(): #This is for the menu
           7.Log out
     """)
     
-#password : thirtyonesixtyone
+#password : thirtyonesixtynine
 #EM Id:E1B2 or B212 or ASRL2
 
 while True:

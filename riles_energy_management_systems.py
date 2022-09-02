@@ -17,8 +17,8 @@ def sys(): #This is for the menu
           7.Log out
     """)
     
-#password : thirtyonesixtynine
-#EM Id:E1B2 or B212 or ASRL2
+# password: thirtyonesixtynine
+# EM Id:E1B2 or B212 or ASRL2
 
 while True:
     user=input("Please enter your EM Id... ")
@@ -94,13 +94,3 @@ while True:
         break
     if sysc=='creds':
         open('https://github.com/Riles14R')
-    
-        
-
-    
-        
- 
-    
-
-    
-          

@@ -94,13 +94,3 @@ while True:
         break
     if sysc=='creds':
         open('https://github.com/Riles14R')
-    
-        
-
-    
-        
- 
-    
-
-    
-          

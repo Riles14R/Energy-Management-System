@@ -1,8 +1,10 @@
-EM=('E1B2','B212','ASRL2')
-DP=('thirtyonesixtynine')
 from concurrent.futures.process import _system_limits_checked
 import time
 import random
+
+EM=('E1B2','B212','ASRL2')
+DP=('thirtyonesixtynine')
+
 def welcomesys():
     print('Welcome'' '+user)
 def sys(): #This is for the menu
@@ -22,11 +24,13 @@ def sys(): #This is for the menu
 
 while True:
     user=input("Please enter your EM Id... ")
+    
     if user in EM:
      userpassword=input("Please enter default password... ")
     elif not user in EM:
      print('Please Try Again')
      break
+        
     if userpassword != DP: 
      print("Invalid password.")
      break
@@ -62,7 +66,6 @@ while True:
         time.sleep(0.2)
         print('Logging out for Security Protocol')
         break
-
     if sysc =='4':
         spb = random.sample(range(1, 5000), 1)
         print('Checking Solar Panel....')
@@ -92,5 +95,5 @@ while True:
         time.sleep(0.7)
         print('Logging out now')
         break
-    if sysc=='creds':
+    if sysc=='credits':
         open('https://github.com/Riles14R')

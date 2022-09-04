@@ -9,7 +9,7 @@ def welcomesys():
     print('Welcome'' '+user)
 def sys(): #This is for the menu
     print("""
-    **\nWelcome to Riles Energy Systems\n**
+    **Welcome to Riles Energy Systems**
           1.Wind Turbine Status
           2.Wind Turbine Energy Battery
           3.Solar Panel Status
